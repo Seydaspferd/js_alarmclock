@@ -7,16 +7,34 @@
     <title>Alarm Clock</title>
   </head>
   <body>
-    <div class="title"><h1>Alarm Clock</h1></div>
+    <div class="timediv">
+      <div class="title"><h1>Alarm Clock</h1></div>
 
-    <div id="currenttime"></div>
+      <div id="currenttime">00:00</div>
 
-    <label for="timeselect">Select a time:</label>
-    <input type="time" id="timeselect" name="timeselect" />
+      <label for="timeselect">Alarm at:</label>
+      <input type="time" id="timeselect" name="timeselect" />
 
-    <div id="alarm"></div>
+      <div id="alarm"></div>
 
-    <div id="test"></div>
+      <div id="clockimg1"><img src="alarmclock1.png" alt="" /></div>
+    </div>
+
+    <audio id="audiotag1" src="alarmclocksound1.mp3" preload="auto"></audio>
+
+    <!-- Timer HTML -->
+
+    <div class="timediv">
+      <div><h1>Timer</h1></div>
+      <input type="number" id="minuteinput" maxlength="2" size="2" />
+      <input type="number" id="secondinput" maxlength="2" size="2" />
+      <button id="startbtn">Start Timer</button>
+      <button id="stopbtn">Stop Timer</button>
+      <div id="inputalarm"></div>
+      <div id="clockimg2"><img src="alarmclock2.png" alt="" /></div>
+    </div>
+
+    <audio id="audiotag2" src="alarmclocksound2.mp3" preload="auto"></audio>
 
     <script src="main.js"></script>
   </body>

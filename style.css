@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+html {
+  font-size: 32px;
+}
+
+#minuteinput,
+#secondinput,
+#timeselect,
+#startbtn,
+#stopbtn {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+}
+
+#currenttime {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.timediv {
+  text-align: center;
+}
+
+#clockimg1,
+#clockimg2 {
+  display: none;
+}
